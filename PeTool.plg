@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PeTool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CB.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PeTool.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\My_works\pe_TOOL\PeTool\DIALOG_INJECT.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PeTool.pdb" /machine:I386 /out:"Release/PeTool.exe" 
+.\Release\DIALOG_About.obj
+.\Release\DIALOG_BaseReloc.obj
+.\Release\DIALOG_BoundImport.obj
+.\Release\DIALOG_Direction.obj
+.\Release\DIALOG_ExportTable.obj
+.\Release\DIALOG_IAT.OBJ
+.\Release\DIALOG_ImportTable.obj
+.\Release\DIALOG_Main.obj
+.\Release\DIALOG_Pe.obj
+.\Release\DIALOG_ResourceTable.obj
+.\Release\DIALOG_SectionTable.obj
+.\Release\PeTools.obj
+.\Release\StdAfx.obj
+.\Release\Res.res
+.\Release\DIALOG_INJECT.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CC.tmp"
+<h3>Output Window</h3>
+Compiling...
+DIALOG_INJECT.CPP
+Linking...
+
+
+
+<h3>Results</h3>
+PeTool.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
